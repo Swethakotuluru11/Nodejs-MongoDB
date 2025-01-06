@@ -10,7 +10,7 @@ const logger = winston.createLogger({
   level: 'info', // Log level
   format: winston.format.json(), // Log format
   transports: [
-    // Console transport
+    // Console cd 
     new winston.transports.Console(),
     // File transport
     new winston.transports.File({ filename: 'logfile.log' }),
